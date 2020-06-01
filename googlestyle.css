@@ -14,7 +14,19 @@ li {
     margin-right: 40px;    
  }
 
- 
+ .nav {
+     display: inline-block;
+ }
+
+ #navleft {
+     float: left;
+ }
+
+ #navright {
+     float: right;
+     margin-left: 820px;
+ }
+
  .logo {
     display: box;
     margin-top: 150px;
@@ -32,7 +44,19 @@ li {
  
 
  .foot {
-    margin-top: 200px; 
-    margin-bottom: 0px;
+     display: inline-block;
+     
  }
  
+ #footleft {
+     float: left;
+     margin-top: 200px; 
+     margin-bottom: 0px;
+ }
+
+ #footright {
+     float: right;
+     margin-top: 200px; 
+     margin-bottom: 0px;
+     margin-left: 610px;
+ }
